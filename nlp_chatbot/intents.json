@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey"],
+      "responses": ["Hello 😊", "Hey! How can I help you?"]
+    },
+    {
+      "tag": "how_are_you",
+      "patterns": ["how are you", "how r u"],
+      "responses": ["I'm doing great 😄", "All good!"]
+    },
+    {
+      "tag": "identity_user",
+      "patterns": ["who am i", "mai kaun hu", "ma kon hu"],
+      "responses": ["You are a human 😄", "You are my user 😊"]
+    },
+    {
+      "tag": "identity_bot",
+      "patterns": ["who are you", "what is your name"],
+      "responses": ["I am an NLP based chatbot 🤖"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "exit"],
+      "responses": ["Bye 👋 Take care"]
+    }
+  ]
+}
